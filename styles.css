@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #448db2;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.container {
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 25px;
+}
+
+nav {
+  background: rgb(21, 39, 85);
+  height: 40px;
+}
+
+a {
+  font-size: 1.5rem;
+  color: azure;
+  margin: auto 25px;
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+h1,
+h2 {
+  color: aliceblue;
+  margin: 5px;
+  text-align: center
+}
+
+img {
+  width: 25%;
+  margin: 10px auto;
+  display: block;
+  border-radius: 15%;
+  border: 2px solid black;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  margin: 25px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: black;
+  margin: 5px;
+}
+
+span {
+  color: aliceblue;
+}
+
+section {
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 5px 15px;
+  border-radius: 5%;
+  background-color: rgba(254, 250, 250, 0.2);
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.3);
+}
